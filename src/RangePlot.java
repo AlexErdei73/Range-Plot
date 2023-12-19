@@ -6,6 +6,6 @@ the Plot.java class to make the plot.
 public class RangePlot {
     public static void main(String[] args) {
         Range range = new Range(20);
-        System.out.println("Range = " + range.calc(45) + " m");
+        range.plot();
     }
 }
